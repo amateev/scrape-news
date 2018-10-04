@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Scraper News</title>
+
+  <!-- bootstrap goes first-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- reset css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <!-- style css -->
+  <!-- /style.css is the samething as
+  http://localhost:3000/style.css
+  but /style.css is better because it works for any port number and any domain name -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Scraper News</a>
+            </div>
+
+        </div>
+        <!-- /.container-fluid -->
+  </nav>
+  <!-- end of nav bar -->
+
+
+<!--Wrap main contant in a div .wrap-->
+<div id="wrap">
+  
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+
+                      <h2 class="display-4">All records</h2>
+            </div> 
+        </div>
+        <hr class="my-4">
+
+        <div class="row">
+            <div class="col-sm-12">
+
+                 <!-- <% for (var i=0; i<records.length; i++) { %>
+                                    
+                                           
+                                            <span><%=   records[i].respond  %></span>                                              
+                                
+                                    <% } %> -->
+           
+                  
+                
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- end of main content -->
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<!--Start of the Footer-->
+<footer class="footer">
+    <div class="container">
+          <span class="text-muted">Copyright &copy</span> 
+    </div>
+</footer>
+   
+    <!--End of the Footer-->
+
+
+  <!-- jquery link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- bootstrap link -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- jquery code -->
+  <!-- <script type="text/javascript" src="assets/javascript/app.js"></script> -->
+  
+
+</body>
+
+</html>

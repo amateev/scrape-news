@@ -1,0 +1,17 @@
+DROP DATABASE  IF EXISTS new_db;
+
+CREATE DATABASE new_db;
+
+USE match_db;
+
+CREATE TABLE table_name (
+	id INT NOT NULL AUTO_INCREMENT,
+	? VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+
+
+
+
+
